@@ -1,0 +1,205 @@
+body {
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: scroll;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(208, 240, 229);
+}
+.background-image{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    position: absolute;
+    margin-top: 10%;
+    padding: 0%;
+}
+.header-a{
+    position: relative;
+    margin-top: 0%;
+    display: flex;
+    background-color: purple;
+    height: 60px;
+    border-radius: 30px;
+    width: 100%;
+}
+.ul{
+    list-style-type: none;
+    display: flex;
+}
+.a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    width: 110px;
+    text-align: center;
+    border-radius: 20px;
+    height: 30px;
+    align-content: center;
+    padding: 4px;
+    bottom: 8px;
+}
+.a:hover{
+    background-color: white;
+    color: black;
+}
+
+.header-a form input{
+    position: absolute;
+    top: 20%;
+    right: 12px;
+    border-radius: 15px;
+    height: 30px;
+}
+.home_space{ 
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.home{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: calc(100%-600px);
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+}
+.p1{
+    background-color: rgba(198, 240, 136, 0.7);
+    color: black;
+    text-align: justify;
+    font-size: 15px;
+    padding: 7px;
+}         
+.rating{
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-top: 0%;
+}
+.title{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    border-top: 100px;
+    margin-top: 0%;
+    z-index: 1;
+}
+.title:hover{
+    background-color: black;
+    color: white;
+}
+.anime_home_container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    width: calc(100% - 60px);
+    margin-left: 60px;
+}
+.rating_container{
+    
+    background-image: linear-gradient(rgb(233, 165, 165), rgb(60, 77, 36));
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-right: 4px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 550px;
+    color: white;
+}
+.rating_container:hover{
+    background-color: black;
+}
+.rating_image{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+    margin: 0%
+}
+table{
+    float: right;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+table, tr, td, th{
+    border-collapse: collapse;
+    text-align: left;
+}
+tr:hover{
+    background-color: white;
+    color: black;
+}
+td a{
+    text-decoration: none;
+    color: brown;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    background-color: aqua;
+    margin: 6px;
+    padding-top: px;
+    width: 130px;
+    height: 20px;
+}
+.desc_container{
+    display: none;
+}
+.desc_title{
+    color: white;
+    background-color: black;
+    width: fit-content;
+    float: right;
+}
+.p2, .p3{
+    font-size: 14px;
+    text-align: justify;
+    padding: 5px;
+}
+.footer-a{
+    position: relative;
+    margin-bottom: 0%;
+    display: flex;
+    background-color: greenyellow;
+    height: 60px;
+    border-radius: 30px;
+    width: 200vh;
+}
+.ul2{
+    list-style-type: none;
+    display: flex;
+}
+.a2{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    width: 110px;
+    text-align: center;
+    border-radius: 20px;
+    height: 30px;
+    align-content: center;
+    padding: 4px;
+    bottom: 8px;
+}
+.a2:hover{
+    background-color: white;
+    color: black;
+}
+
+.footer-a form input{
+    position: absolute;
+    top: 20%;
+    right: 12px;
+    border-radius: 15px;
+    height: 30px;
+}
